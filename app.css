@@ -1,0 +1,61 @@
+body {
+  background-color: black;
+}
+#info,
+#processedInfo {
+  width: 100%;
+}
+textarea {
+  resize: none;
+}
+
+#info:focus {
+  border: solid 5px red;
+}
+
+#processedInfo:focus {
+  border: solid 5px green;
+}
+#processedInfo {
+  background-color: white;
+}
+.custombtn {
+  width: 30%;
+}
+
+h1 {
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.result {
+  border: solid 1px white;
+  max-height: 246px;
+  max-width: 550px;
+  overflow: hidden;
+  height: 246px;
+  width: 550px;
+  background-color: white;
+}
+
+#generated {
+  width: 50%;
+  background-color: white;
+  color: black;
+}
+
+#canvas {
+  border: dotted 1px;
+}
+
+.coords {
+  font-size: 25px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: red;
+  position: absolute;
+  z-index: 9999;
+}
